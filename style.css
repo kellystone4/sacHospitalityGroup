@@ -317,7 +317,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
-    background-image: url("https://wallpaperaccess.com/full/1773222.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("https://wallpaperaccess.com/full/1773222.jpg");
+
 }
 h2 {
   font-size: 45px;
