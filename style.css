@@ -172,7 +172,7 @@
 .getToKnowUs{
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 19px;
   color:white !important;
   letter-spacing: 5px; 
   line-height: 300%;
@@ -382,10 +382,10 @@ p {
   font-size: 10px;
 }
 #contributors {
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin-left: 20%;
+  font-family: 'Cormorant Garamond', serif;
+  /* margin-left: 20%; */
   text-shadow: 2px 2px 4px #000000;
 }
 .ccc {
