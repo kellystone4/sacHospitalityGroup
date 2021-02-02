@@ -18,33 +18,33 @@
 }
 .copyright {
   font-family: 'Cormorant Garamond', serif;  
-  font-size: 20px;
+  font-size: 18px;
   color: white !important;
   letter-spacing: 3px; 
-  margin-top: 5px;
-  margin-left: 15px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 .aboutUsInfo {
   /* text-align: center; */
   font-family: 'Roboto', sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   color: white !important;
   letter-spacing: 1px; 
   margin-right: 2%;
 }
-.savedTripUserCity {
+/* .savedTripUserCity {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   color: #858484  !important;
   /* margin-top: -2% */
-}
-.savedTripInfo {
+ */
+/* .savedTripInfo {
   /* text-align: left; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif;
   font-size: 23px;
   color: #858484  !important;
-}
+} */ 
 .card-image {
   margin: 3%;
   margin-right: -1%
@@ -222,12 +222,12 @@ nav {
   .sRS {
     text-align: center;
 }
-.bg-cover {
+/* .bg-cover {
     background-position-y: inherit;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .fas {
     color: white;
 }
@@ -235,11 +235,9 @@ nav {
     color:white;
     /* margin-top: 68% */
 }
-.footericons{
-    margin-top: 68%;
-    position: bottom;
-
-}
+/* .footericons{
+    margin-top: 50%;
+} */
 p{
     color: white;
 }
@@ -313,9 +311,13 @@ p{
     text-shadow: 2px 2px 4px #000000;
 }
 body {
-  background: #333;
-  color: #fff;
+    background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Roboto', sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/1773222.jpg");
 }
 h2 {
   font-size: 45px;
