@@ -398,3 +398,59 @@ p {
   font-size: 19px;
   line-height: 150%;
 }
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+body { font-family: sans-serif; }
+/* ---- grid ---- */
+.grid {
+  padding-top: 4%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  padding: 2%
+}
+
+/* past events pic */
+
+.pastEventsPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  /* height: 1px; */
+}
+.pastEventsPic {
+  /* width: 33.333%; */
+}
+
+ 
+.pastEvents-item img {
+  display: block;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+} 

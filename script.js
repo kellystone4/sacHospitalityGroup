@@ -1,6 +1,6 @@
-$(document).ready(function () {
-  $('.sidenav').sidenav();
-  $('.modal').modal();
+// $(document).ready(function () {
+//   $('.sidenav').sidenav();
+//   $('.modal').modal();
 
-});
+// });
 
